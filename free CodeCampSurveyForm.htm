@@ -1,0 +1,133 @@
+<DOCTYPE html>
+
+<html>
+
+		<head>
+				<title> freeCodeCamp </title>
+				
+				<style>
+					body{
+						background-color: skyblue;
+						}
+					h1{
+						text-align:center;
+						}
+					h2{
+						text-align:center;
+						}
+					form{
+						align:center;
+						background-color:blue;
+						text-color:white;
+						}				
+					input[type=text]{
+						width: 50%;
+						padding: 10px 20px;
+						font-size: 1rem;
+						margin: 10px 0;
+						border-radius: 5px;
+					 }
+					input[type=number]{
+						width: 50%;
+						padding: 10px 20px;
+						font-size: 1rem;
+						margin: 10px 0;
+						border-radius: 5px;
+					 } 
+					select[name="Which option best describe your current role?"]{
+						width: 50%;
+						padding: 10px 20px;
+						font-size: 1rem;
+						margin: 10px 0;
+						border-radius: 5px;
+						} 
+					select[name="What is your favourite feature of free CodeCamp?"]{
+						width: 50%;
+						padding: 10px 20px;
+						font-size: 1rem;
+						margin: 10px 0;
+						border-radius: 5px;
+						}
+					textarea{
+						width: 50%;
+						padding: 20px;
+						border-radius: 0;
+						}
+					input[type="submit"]{
+						width: 50%;
+						border: none;
+						background-color: Green;
+						color: white;
+						padding: 10px;
+						cursor: pointer;
+						}
+					
+						
+				  </style>
+		</head>
+		
+		<body> 
+				<h1> freeCodeCamp Survey Form </h1>
+				<h2> Thank you for taking the time to help us improve the platform </h2>
+				 
+				 <form>
+						<fieldset>
+						<b> Name </b> <br/> 
+						<input type="text" name="textbox1"> <br/> <br/>
+						<b> Email </b> <br/>
+						<input type="text" name="textbox2"> <br/> <br/>
+						<b> Age(Optional) </b> <br/>
+						<input type="number" name="textbox3"> <br/> <br/>
+						
+						<b> Which option best describe your current role? </b> <br/>
+						<select name="Which option best describe your current role?">
+								<option> Select current role </option>
+								<option> Student </option>
+								<option> Full Time Job </option>
+								<option> Full Time Learner </option>
+								<option> Prefer not to say </option>
+								<option> Other </option>
+						</select> <br/> <br/>
+						
+						<b> Would you recommend free CodeCamp to a friend? </b> <br/>
+						<input type="radio" name="Would you recommend free CodeCamp to a friend?" value="Definitely" checked> Definitely <br/>
+						<input type="radio" name="Would you recommend free CodeCamp to a friend?" value="Maybe"> Maybe <br/>
+						<input type="radio" name="Would you recommend free CodeCamp to a friend?" value="Not sure"> Not sure <br/> <br/>
+						
+						<b> What is your favourite feature of free CodeCamp? </b> <br/>
+						<select name="What is your favourite feature of free CodeCamp?">
+								<option> Select an option </option
+								<option> Challenges </option>
+								<option> Projects </option>
+								<option> Community </option>
+								<option> Open Source </option>
+						</select> <br/> <br/>
+						
+						<b> What would you like to  see improved? (Check all that apply) </b> <br/>
+						<input type="checkbox" name="c1" value="Front-end Projects"> Front-end Projects <br/>
+						<input type="checkbox" name="c2" value="Back-end Projects"> Back-end Projects <br/>
+						<input type="checkbox" name="c3" value="Data Visualization"> Data Visualization <br/>
+						<input type="checkbox" name="c4" value="Challenges"> Challenges <br/>
+						<input type="checkbox" name="c5" value="Open Source Community"> Open Source Community <br/>
+						<input type="checkbox" name="c6" value="Gitter help rooms"> Gitter help rooms <br/>
+						<input type="checkbox" name="c7" value="Videos"> Videos <br/>
+						<input type="checkbox" name="c8" value="City Meetups"> City Meetups <br/>
+						<input type="checkbox" name="c9" value="Wiki"> Wiki <br/>
+						<input type="checkbox" name="c10" value="Forum"> Forum <br/>
+						<input type="checkbox" name="c11" value="Additional Coursed"> Additional Courses <br/>
+						
+						<p> <p> Any comments or suggestions? </p>
+						<textarea name="t1" rows="5" cols="40"> Enter your comment here...
+						</textarea> <br/> <br/>
+						
+						
+						<input type="submit" value="Submit"> 
+						
+						
+						</fieldset>
+						
+				</form>
+				
+		</body>
+		
+</html>
